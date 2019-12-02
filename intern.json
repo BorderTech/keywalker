@@ -1,0 +1,12 @@
+{
+  "loader": {
+    "script": "dojo",
+    "options": {
+      "packages": [
+        { "name": "keywalker", "location": "js/keywalker" }
+      ]
+    }
+  },
+  "suites": "tests/all",
+  "environments": [ "chrome", "node" ]
+}
